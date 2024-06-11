@@ -1,0 +1,19 @@
+version: "3"
+services:
+   flask1:
+    build:
+       context: .
+       dockerfile: Dockerfile
+    volumes:
+       - python-docker
+    ports: 
+      - 8083:5000
+    networks:
+      - nfp1
+    image: flask_1
+    container_name: conts_flask1
+networks:
+  nfp1:
+     driver: bridge
+volumes:
+   python-docker:
