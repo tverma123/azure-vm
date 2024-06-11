@@ -10,8 +10,8 @@ services:
         - python-docker
       networks:
         - nfp2
-      image: flask2
-      container_name: conts_flask2
+      image: xxxx
+      container_name: xyz
 networks:
    nfp2:
      driver: bridge

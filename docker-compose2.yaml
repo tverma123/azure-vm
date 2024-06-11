@@ -10,8 +10,8 @@ services:
       - 8083:5000
     networks:
       - nfp1
-    image: flask_1
-    container_name: conts_flask1
+    image: yyyy
+    container_name: pqr
 networks:
   nfp1:
      driver: bridge
